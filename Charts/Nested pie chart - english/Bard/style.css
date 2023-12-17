@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  #chart {
+    width: 100vw;
+    height: 50vh;
+  }
+  
+  .pie-slice {
+    fill: #ddd;
+    stroke: #ccc;
+    stroke-width: 2px;
+  }
+  
+  .nested-slice {
+    fill: #eee;
+    stroke: #ddd;
+    stroke-width: 1px;
+  }
+  
+  .text {
+    font-size: 12px;
+    fill: #000;
+  }
+  
+  .pie-slice.writing {
+    fill: #f7971e;
+  }
+  
+  .nested-slice.writing {
+    fill: #fcb045;
+  }
+  
+  .pie-slice.reading {
+    fill: #4e79a7;
+  }
+  
+  .nested-slice.reading {
+    fill: #9ac4e8;
+  }
+  
+  .pie-slice:hover {
+    opacity: 0.8;
+  }
+  
+  .nested-slice:hover {
+    opacity: 0.8;
+  }
+  
+  
