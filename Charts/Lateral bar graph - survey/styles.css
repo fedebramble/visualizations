@@ -1,0 +1,25 @@
+/* Styles for the bar chart */
+#chart {
+    width: 100%;
+    max-width: 960px;
+    margin: auto;
+}
+
+.axis-label {
+    font-size: 12px;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges;
+}
+
+.bar-group rect {
+    fill-opacity: 0.7;
+}
+
+.bar-group rect:hover {
+    fill-opacity: 1;
+}
